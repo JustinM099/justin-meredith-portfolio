@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+  font-size: 5.625rem;
+  color: #454133;
+  text-shadow: 1px 1px 1px #000;
+
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  color: #454133;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h3 {
+  color: #454133;
+}
+
+a {
+  color: #454133;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+}
+
+/*************************************CLASS***********************************/
+.top_container {
+
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/09/vines-1209094_960_720.jpg);
+  background-size:100% 100%;
+  background-color: #d8d4cc;
+  border-style: solid;
+  border-width: 0;
+  padding-top: 33%;
+  text-align: center;
+  position: relative;
+  line-height: 2;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+
+.middle_container {
+  background-color: #88856f;
+  text-align: center;
+  margin: 0;
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+footer {
+  background-color: #afac9f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 0;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.man {
+  text-decoration: underline;
+}
+
+.profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.skills {
+  background-color: #d8d4cc;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 0 auto;
+  padding-bottom: 20px;
+}
+
+.wine-glasses {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.technology {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  position: fixed;
+  right: 2px;
+  bottom: 0;
+  display: inline-block;
+}
+
+.wine-row-description {
+  clear: left;
+}
+
+.technology-row-description {
+  clear: right;
+}
+
+/* contact button */
+
+.button-container {
+  padding: 3%;
+}
+
+.BUTTON_EVA {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 23px;
+   background-color: #a3a185;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #afac9f 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_EVA:hover {
+   background: #737355;
+   border: solid #afac9f 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+}
