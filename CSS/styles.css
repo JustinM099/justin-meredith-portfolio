@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  line-height: 1.5;
 }
 
 h1 {
@@ -15,7 +16,10 @@ h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 5.625rem;
   color: #454133;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #000; 
+  position: absolute; 
+  bottom: 55%;
+  right: 30%;
 
 }
 
@@ -56,34 +60,6 @@ body {
   margin: 0;
   font-family: 'Spartan', sans-serif;
 }
-
-/*************************************CLASS***********************************/
-.top_container {
-
-  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/09/vines-1209094_960_720.jpg);
-  background-size:100% 100%;
-  background-color: #d8d4cc;
-  border-style: solid;
-  border-width: 0;
-  padding-top: 33%;
-  text-align: center;
-  position: relative;
-  line-height: 2;
-  margin: 0;
-  float: left;
-  width: 100%;
-}
-
-.middle_container {
-  background-color: #88856f;
-  text-align: center;
-  margin: 0;
-  float: left;
-  width: 100%;
-  padding-bottom: 50px;
-
-}
-
 footer {
   background-color: #afac9f;
   padding-bottom: 10px;
@@ -96,9 +72,49 @@ footer {
   bottom: 0;
 }
 
-.man {
-  text-decoration: underline;
+img {
+  max-width: 100%;
+
 }
+
+/*************************************CLASS***********************************/
+.intro {
+
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/09/vines-1209094_960_720.jpg);
+  background-size:100% 100%;
+  background-color: #d8d4cc;
+  border-style: solid;
+  border-width: 0;
+  display: flex;
+  padding-top: 55%;
+  text-align: center;
+  position: relative;
+  line-height: 2;
+  margin: 0;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.box {
+  flex: auto;
+}
+.intro-subtitle {
+position: absolute; 
+bottom: 43%;
+left: 52%;
+}
+
+.about {
+  background-color: #88856f;
+  text-align: center;
+  margin: 0;
+  float: left;
+  width: 100%;
+
+}
+
+
 
 .profilePic {
   display: block;
@@ -109,6 +125,7 @@ footer {
 
 .skills {
   background-color: #d8d4cc;
+  padding: 3%;
 }
 
 .skill-row {
@@ -145,6 +162,70 @@ footer {
 .technology-row-description {
   clear: right;
 }
+
+.web-dev-title {
+  text-align: right;
+}
+
+.work {
+ 
+  background-color: #d8d4cc; 
+  padding: 3%;
+  position: relative;
+  text-align: center;
+  width: 94%;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5%;
+  position: relative;
+}
+
+.card {
+  border-style: dashed;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  margin: 1%;
+  margin-bottom: 2%;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 2%;
+  width: 49%;
+
+}
+.card-header {
+  background-color: #d8d4cc;
+  border-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 150%;
+  margin-bottom: 2%;
+  margin-top: -70px;
+  position: relative;
+  z-index: 1; 
+}
+
+.work-preview {
+  border-radius: 10px;
+}
+
+/* contact section */
+.contact-me {
+  background-color: #88856f;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
 
 /* contact button */
 
