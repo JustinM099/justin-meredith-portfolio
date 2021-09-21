@@ -301,3 +301,17 @@ left: 52%;
   word-wrap: normal;
   display: inline-block;
 }
+
+/* media tags */
+/*smartphone*/
+@media screen and (max-width: 767px){
+  body {
+    font-size: 32px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  body {
+    font-size: 24px;
+  }
+}
