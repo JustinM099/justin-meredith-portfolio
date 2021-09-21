@@ -308,10 +308,35 @@ left: 52%;
   body {
     font-size: 32px;
   }
+
+  .skills {
+    padding: 10% 3%;
+  }
+
+  .skill-row {
+    width: 100%;
+  }
+
+  .card {
+    flex: 1;
+    width: 51%;
+  }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
   body {
     font-size: 24px;
+  }
+  .skill-row {
+    width: 100%;
+  }
+
+  .skills {
+    padding: 10% 3%;
+  }
+
+  .card {
+    flex: 1;
+    width: 51%;
   }
 }
