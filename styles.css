@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -66,7 +67,7 @@ footer {
   padding-top: 10px;
   text-align: center;
   margin: 0;
-  z-index: 100;
+  z-index: 1;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -83,7 +84,28 @@ img {
 
 }
 
+nav {
+  background-color: #afac9f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: right;
+  margin: 0;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
 /*************************************CLASS***********************************/
+.nav-link {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+
+}
+
+
+
 .intro {
 
   background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/09/vines-1209094_960_720.jpg);
@@ -179,7 +201,7 @@ left: 52%;
   padding: 3%;
   position: relative;
   text-align: center;
-  width: 94%;
+  width: 100%;
   
 }
 

@@ -4,28 +4,37 @@
 <head>
   <meta charset="utf-8">
   <title>Justin Meredith</title>
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="icon" href="images/wine-glass-icon.ico.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rock+Salt&family=Spartan:wght@300&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <header>
+    <nav>
+      <a class="nav-link" href="#profile">About Me</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#work">Work</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
   <section class="intro">
     <div class="box">
       <h1>I'm Justin .</h1>
     </div>
     <div class="box">
-    <p>
-    <h2 class="intro-subtitle"> a web developer . </h2>
-    </p>
+      <p>
+      <h2 class="intro-subtitle"> a web developer . </h2>
+      </p>
     </div>
   </section>
   <section class="about">
-    <div class="profile">
+    <div class="profile" id="profile">
       <img src="images/justin_meredith_profile_image_cropped_circle.png" alt="my profile image" height="300px"
         class="profilePic">
       <h2>Hello!</h2>
@@ -34,7 +43,7 @@
       </p>
     </div>
     <br>
-    <div class="skills">
+    <div class="skills" id="skills">
       <h2>My Skills</h2>
       <div class="skill-row">
         <img class="wine-glasses" src="https://image.flaticon.com/icons/png/512/3751/3751571.png" alt="wine-glasses">
@@ -60,24 +69,27 @@
     </div>
 
   </section>
-  <section class="work">
+  <section class="work" id="work">
     <h2>My Work</h2>
     <div class="container">
       <div class="card">
         <div class="card-header">
           <h3>Mosaic Learning Center</h3>
         </div>
-        <a href="https://justinm099.github.io/mosaic-learning-center/"><img class="work-preview" src="images/mosaic-preview-image.jpeg" alt="a preview image for the mosaic learning center website"></a>
+        <a href="https://justinm099.github.io/mosaic-learning-center/"><img class="work-preview"
+            src="images/mosaic-preview-image.jpeg" alt="a preview image for the mosaic learning center website"></a>
       </div>
       <div class="card">
         <div class="card-header">
           <h3>CSS Snippets Cheatsheet</h3>
         </div>
-        <a href="https://justinm099.github.io/css-code-snippets/"><img class="work-preview" src="images/css-snippets-preview-image.jpeg" alt="a preview image for a css snippets cheatsheet website"></a>
+        <a href="https://justinm099.github.io/css-code-snippets/"><img class="work-preview"
+            src="images/css-snippets-preview-image.jpeg"
+            alt="a preview image for a css snippets cheatsheet website"></a>
       </div>
     </div>
   </section>
-  <section class="contact-me">
+  <section class="contact-me" id="contact">
     <h2>Get In Touch</h2>
     <h3>If you want to talk, please reach out.</h3>
     <p>Love wine? Love spirits? Love web development? Let's drink and develop together!</p>
