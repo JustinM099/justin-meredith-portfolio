@@ -127,10 +127,16 @@ nav {
 .box {
   flex: auto;
 }
+
 .intro-subtitle {
-position: absolute; 
-bottom: 43%;
-left: 52%;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  color: #454133;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #000;
+  position: absolute; 
+  bottom: 43%;
+  left: 52%;
 }
 
 .about {
@@ -144,11 +150,13 @@ left: 52%;
 
 
 
-.profilePic {
+.profile-pic {
+  height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .skills {
@@ -309,6 +317,11 @@ left: 52%;
     font-size: 32px;
   }
 
+  h2 {
+    font-size: 5rem;
+  }
+  
+
   .skills {
     padding: 10% 3%;
   }
@@ -321,11 +334,33 @@ left: 52%;
     flex: 1;
     width: 51%;
   }
+
+  .intro {
+    padding-top: 100%;
+  }
+
+  .profile-pic {
+    height: 500px;
+    margin: 7% auto;
+  }
+
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
   body {
     font-size: 24px;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+  .profile-pic {
+    height: 500px;
+    margin: 7% auto;
+  }
+  
+  .intro {
+    padding-top: 100%;
   }
   .skill-row {
     width: 100%;
