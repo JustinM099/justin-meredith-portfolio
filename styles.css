@@ -7,8 +7,8 @@
 body {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   line-height: 1.5;
 }
 
@@ -19,8 +19,8 @@ h1 {
   color: #454133;
   text-shadow: 1px 1px 1px #000; 
   position: absolute; 
-  bottom: 55%;
-  right: 30%;
+  /* bottom: 55%; */
+  top: 10%;
 
 }
 
@@ -111,17 +111,16 @@ nav {
   background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/09/vines-1209094_960_720.jpg);
   background-size:100% 100%;
   background-color: #d8d4cc;
-  border-style: solid;
   border-width: 0;
   display: flex;
   padding-top: 55%;
-  text-align: center;
-  position: relative;
   line-height: 2;
   margin: 0;
   float: left;
   width: 100%;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .box {
@@ -135,8 +134,7 @@ nav {
   font-weight: normal;
   text-shadow: 1px 1px 1px #000;
   position: absolute; 
-  bottom: 43%;
-  left: 52%;
+  top: 25%;
 }
 
 .about {
@@ -151,7 +149,7 @@ nav {
 
 
 .profile-pic {
-  height: 300px;
+  height: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -265,6 +263,7 @@ nav {
   align-items: center;
   width: 100%;
   padding-bottom: 5%;
+  padding-top: 1%;
 }
 
 
