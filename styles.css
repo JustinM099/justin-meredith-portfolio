@@ -162,6 +162,7 @@ nav {
 
 .profile-pic {
   display: block;
+  border-radius: 50%;
   height: 500px; 
   margin-left: auto;
   margin-right: auto;
