@@ -240,12 +240,15 @@ nav {
   max-width: 300px;
   min-width: 300px;
   padding: 2%;
+  transition: transform 0.2s linear;
   width: 49%;
 
 }
 
 .card:hover {
   box-shadow: 0 5px 15px rgb(14, 13, 13);
+  transform: translateY(-7px);
+
 }
 
 .card-header {
