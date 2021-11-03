@@ -103,10 +103,9 @@ nav {
   text-align: right;
   margin: 0;
   z-index: 2;
-  width: 100%;
   position: fixed;
-  top: 0
-
+  top: 0;
+  width: 100%;
 }
 
 /* classes */
@@ -306,6 +305,7 @@ nav {
    display: inline-block;
    cursor: pointer;
    text-align: center;
+   margin: 2%;
 }
 
 .BUTTON_EVA:hover {
