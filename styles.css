@@ -267,6 +267,10 @@ nav {
   border-radius: 10px;
 }
 
+.link-icon {
+  height: 32px
+}
+
 /* contact section */
 .contact-me {
   align-items: center;
